@@ -1,0 +1,5 @@
+k = int(input('vvedite summu kredita: '))
+p = int(input('vvedite % stavku: '))
+m = int(input('vvedite kolichestvo mesyacev: '))
+a = k*0.01*p*(1+0.01*p)**m/((1+0.01*p)**m-1)
+print(a)
